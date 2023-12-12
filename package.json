@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsup --watch",
-    "build": "tsup",
-    "build2": "esbuild src/index.ts --bundle --sourcemap --outfile=dist-esbuild/index.mjs --allow-overwrite --platform=node --format=esm",
-    "build3": "esbuild src/index.ts --bundle --sourcemap --outfile=dist-esbuild/index.cjs --allow-overwrite --platform=node --format=cjs"
+    "build": "tsup"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +13,6 @@
   "devDependencies": {
     "@tomjs/tsconfig": "^1.1.2",
     "@types/node": "^20.10.4",
-    "esbuild": "^0.19.9",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   }
